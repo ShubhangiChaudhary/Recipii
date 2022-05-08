@@ -14,7 +14,7 @@ model Recipe {
   id          String   @id @default(cuid())
   name        String
   ingredients String
-  cookingTime Float    @map("cooking_time")
+  cookingTime String   @map("cooking_time")
   procedure   String
   savedBy     String?
   createdAt   DateTime @default(now())
