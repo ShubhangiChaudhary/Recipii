@@ -32,12 +32,17 @@ export default function Home() {
                 </div>
                 <ul>
                   <li>
-                    <a href="/about" class="nav-link">
+                    <a href="/home" class="nav-link">
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/aboutus" class="nav-link">
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a href="/contact" class="nav-link">
+                    <a href="/contactus" class="nav-link">
                       Contact Us
                     </a>
                   </li>
