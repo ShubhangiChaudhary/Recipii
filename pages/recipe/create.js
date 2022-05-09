@@ -1,11 +1,13 @@
 import { useState } from "react";
 import axios from "axios";
+import { useRouter } from "next/router";
 
 const CreateRecipe = () => {
   const [name, setName] = useState("");
   const [ingredients, setIngredients] = useState("");
   const [time, setTime] = useState("");
   const [procedure, setProcedure] = useState("");
+  const router = useRouter();
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -18,7 +20,7 @@ const CreateRecipe = () => {
     try {
       const res = await axios.post("/api/recipe/create", data);
       if (res.status == 200) {
-        console.log(res.data);
+        router.push(res.data);
       }
     } catch (error) {
       console.log(error);
