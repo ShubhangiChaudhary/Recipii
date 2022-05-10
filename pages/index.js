@@ -22,7 +22,7 @@ export default function Home() {
       )} */}
       <main>
         <div>
-          <div className={styles.slide}></div>
+          {/* <div className={styles.slide}></div> */}
 
           <div class="section">
             <div className={styles.navbar}>
@@ -102,14 +102,36 @@ export default function Home() {
         <section id="about">
           <div class="title-text">
             <div className={styles.titletext}>
-              <h2>ABOUT</h2>
+              <h2>Gallery</h2>
             </div>
           </div>
-          <div class="about-box">
-            <div class="about">
-              <div className={styles.aboutbox}>
-                <h1>A Recipe Diary!!</h1>
-              </div>
+
+
+          <div className={styles.gallery}>
+            <div>
+              <img src="../../images/BG4.jpg" />
+            </div>
+
+            <div>
+              <img src="../../images/BG1.jpg" />
+            </div>
+
+            <div>
+              <img src="../../images/BG2.jpg" />
+            </div>
+          </div>
+
+          <div className={styles.gallery1}>
+            <div>
+              <img src="../../images/BG4.jpg" />
+            </div>
+
+            <div>
+              <img src="../../images/BG1.jpg" />
+            </div>
+
+            <div>
+              <img src="../../images/BG2.jpg" />
             </div>
           </div>
         </section>
