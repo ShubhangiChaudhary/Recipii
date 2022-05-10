@@ -110,3 +110,22 @@
   z-index: 1;
   display: inline-block;
 }
+
+.gallery {
+  width: 100vw;
+  padding: 70px 0;
+}
+
+.gallery img {
+   width: 32vw;
+  margin-left: 8px;
+  float: left;
+  padding: 2%;
+}
+
+.gallery1 img {
+   width: 32vw;
+  margin-left: 8px;
+  float: right;
+  padding: 2%;
+}
